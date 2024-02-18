@@ -1,0 +1,25 @@
+/* LoginPage.css */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.option {
+    margin: 10px 0;
+}
+
+.option button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.option button span {
+    margin-left: 5px;
+}

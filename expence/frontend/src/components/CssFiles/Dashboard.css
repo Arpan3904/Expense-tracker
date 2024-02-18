@@ -1,0 +1,88 @@
+/* Dashboard.css */
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+    height: 100vh; /* full height of the viewport */
+}
+
+.dashboard-container {
+    padding: 20px;
+    text-align: center; /* center the text within the container */
+    margin: 20px; /* add margin */
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333; /* Darker background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Adjust shadow color */
+}
+
+.group-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Equal spacing between groups */
+    list-style: none;
+    padding: 0;
+}
+
+.group-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #555; /* Darker background color */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.group-name button {
+    background-color: transparent;
+    border: none;
+    color: #bbb; /* Lighter text color */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.member-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.member-list li {
+    padding: 5px;
+    background-color: #666; /* Darker background color */
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Standard button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container button:hover {
+    background-color: #0056b3; /* Darker hover color */
+}

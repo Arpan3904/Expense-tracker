@@ -1,0 +1,88 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles */
+
+.group-list {
+  list-style: none;
+  padding: 0;
+}
+
+.group-list li {
+  margin-bottom: 10px;
+}
+
+.friend-list {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-list li {
+  margin-bottom: 5px;
+}
+
+.expense {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.expense .amount {
+  font-weight: bold;
+}
+
+.expense .you-owe {
+  color: red;
+}
+
+.expense .owe-you {
+  color: green;
+}

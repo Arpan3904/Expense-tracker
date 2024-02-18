@@ -1,0 +1,57 @@
+.login-container {
+    width: 300px;
+    margin: 50px auto; /* Adjusted margin for centering vertically */
+    padding: 40px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    background-color: #495057; /* Darker container background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Light text color */
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 15px; /* Increased margin-bottom for spacing */
+    color: #ffffff; /* Light text color */
+    font-size: 18px; /* Increase font size for better readability */
+}
+
+.login-container label span {
+    margin-right: 5px; /* Add some space between the label and input */
+    font-weight: bold; /* Make the label text bold */
+}
+
+
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff; /* Light text color */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.login-container button[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Light text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker hover color */
+}
